@@ -17,10 +17,10 @@ classDiagram
     - imageUrl: String
   }
   class UserNames {
-    - xbox: String
-    - playstation: String
-    - steam: String
-    - epic: String
+    - xboxUser: String
+    - playstationUser: String
+    - steamUser: String
+    - epicUser: String
   }
 
   User"1" *-- "N"Post
