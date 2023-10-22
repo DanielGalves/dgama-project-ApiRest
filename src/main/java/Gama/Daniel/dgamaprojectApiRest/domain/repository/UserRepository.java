@@ -8,5 +8,5 @@ import Gama.Daniel.dgamaprojectApiRest.domain.model.User;
 
 @Repository
 public interface UserRepository extends JpaRepository<User, Long> {
-
-}
+	
+	}
